@@ -1,14 +1,6 @@
-
-
+a = int(input())
+b = int(input())
+c = int(input())
 def quadratic_solver(a, b, c):
-    ...
-
-
-
-
-# Приклад використання функції
-a = 1
-b = -3
-c = 2
-result = quadratic_solver(a, b, c)
-print(result)
+    print(b ** 2 + 4 * a * c)
+quadratic_solver(a = a, b = b, c = c)
