@@ -20,15 +20,10 @@ def quadrat():
         print('x2 =',  x2)
         return x1, x2
     
-quadrat()    
-next = input('Would you like? Enter "No" or "Yes" :  ')
+  
+next = quadrat()
 for i in next:
-    if next ==  'yes' and 'Yes':
-        quadrat()
-    elif next == 'No' and 'no':
-        print('Thank you for using our program!')
-        break
-
+    quadrat()
     
 
 
@@ -43,5 +38,5 @@ for i in next:
 
 
 
-# Приклад використання функції
+
 
