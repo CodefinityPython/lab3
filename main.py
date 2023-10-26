@@ -21,9 +21,19 @@ def quadrat():
         return x1, x2
     
   
-next = quadrat()
-for i in next:
-    quadrat()
+def quadrat1():
+    print('Can I help you?' )
+    next = input(' Enter "Yes" or "No":   '  )
+    for i in next: 
+        if next == 'Yes':
+         quadrat()
+         return quadrat1()
+        elif next == 'No':
+            print('Goodbye)')
+            break
+        
+quadrat1()
+    
     
 
 
