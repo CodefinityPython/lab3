@@ -17,5 +17,8 @@ def quadratic_solver(a, b, c):
         print("There are no real solutions!")
 
 # Приклад використання функції
-result = quadratic_solver(2, -7, 6)
+a = int(input("Enter a = "))
+b = int(input("Enter b = "))
+c = int(input("Enter c = "))
+result = quadratic_solver(a, b, c)
 print(result)
